@@ -10,7 +10,7 @@ import type { WorkflowEvent } from "cloudflare:workers";
  *
  * @see https://developers.cloudflare.com/workflows
  */
-export class MyWorkflow extends WorkflowEntrypoint<
+export class AlexPizza extends WorkflowEntrypoint<
 	Env,
 	Record<string, unknown>
 > {
