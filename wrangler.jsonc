@@ -21,9 +21,9 @@
 	 */
 	"workflows": [
 		{
-			"name": "my-workflow",
-			"binding": "MY_WORKFLOW",
-			"class_name": "MyWorkflow"
+			"name": "alex-pizza",
+			"binding": "ALEX_PIZZA",
+			"class_name": "AlexPizza"
 		}
 	],
 	/**
