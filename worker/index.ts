@@ -1,5 +1,5 @@
 // Export the Workflow and Durable Object classes
-export { MyWorkflow } from "./workflow";
+export { AlexPizza } from "./workflow";
 export { WorkflowStatusDO } from "./durable-object";
 
 /**
