@@ -6,10 +6,6 @@
   "name": "alex-pizza-voice-agent",
   "main": "worker/index.ts",
   "compatibility_date": "2026-10-26",
-  "assets": {
-    "directory": "./dist",
-    "not_found_handling": "single-page-application"
-  },
   "observability": {
     "enabled": true
   },
