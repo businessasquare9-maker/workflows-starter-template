@@ -1,18 +1,18 @@
 /** Wrangler configuration for Alex Pizza AI Voice Agent.
- * Replace the D1 database ID placeholder with the existing database ID before deploying.
+ * Replace the D1 database name and ID placeholders with your existing database's exact values before deploying.
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "alex-pizza-voice-agent",
   "main": "worker/index.ts",
-  "compatibility_date": "2026-10-26",
+  "compatibility_date": "2025-10-08",
   "observability": {
     "enabled": true
   },
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "alex-pizza-db",
+      "database_name": "REPLACE_WITH_YOUR_EXISTING_D1_DATABASE_NAME",
       "database_id": "REPLACE_WITH_YOUR_EXISTING_D1_DATABASE_ID"
     }
   ],
