@@ -4,14 +4,14 @@
   "private": true,
   "description": "Alex Pizza AI inbound voice-agent Cloudflare Worker",
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "wrangler deploy --dry-run",
     "cf-typegen": "wrangler types",
-    "check": "tsc && wrangler deploy --dry-run",
-    "deploy": "npm run build && wrangler deploy",
-    "dev": "vite",
-    "lint": "eslint .",
-    "preview": "npm run build && vite preview",
-    "test": "vitest run"
+    "check": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "lint": "eslint worker/index.ts",
+    "preview": "wrangler dev",
+    "test": "npm run check"
   },
   "dependencies": {
     "react": "19.2.1",
