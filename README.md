@@ -4,7 +4,7 @@ Cloudflare Worker backend for the Alex Pizza inbound voice agent. The worker exp
 
 ## Deploy
 
-1. Keep the existing D1 database. In `wrangler.jsonc`, replace `REPLACE_WITH_YOUR_EXISTING_D1_DATABASE_ID` with that database's actual ID. Do not create a new database if you need to preserve existing data.
+1. Keep the existing D1 database. In `wrangler.jsonc`, replace both `REPLACE_WITH_YOUR_EXISTING_D1_DATABASE_NAME` and `REPLACE_WITH_YOUR_EXISTING_D1_DATABASE_ID` with that database's exact name and ID. Do not create a new database if you need to preserve existing data.
 2. Install dependencies with `npm install`.
 3. Set the Worker secrets/variables listed below in Cloudflare Dashboard (Workers & Pages → alex-pizza-voice-agent → Settings → Variables and Secrets), or via Wrangler secrets.
 4. Run `npm run check`, then `npm run deploy`.
